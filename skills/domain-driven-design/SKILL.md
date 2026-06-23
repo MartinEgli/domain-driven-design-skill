@@ -38,6 +38,13 @@ Do not use DDD ceremony for simple CRUD, simple workflow, or low-domain-complexi
 tasks. Use `software-architecture` for broader software design without deep
 domain modeling.
 
+Do not use for enterprise capability maps, portfolio rationalization, operating
+model, or roadmap decisions. Use `enterprise-architecture` for those.
+
+Do not use for final evidence acceptance, architecture gate approval, or
+productive-use governance of AI-generated model claims. Use
+`mournival-architecture` for those.
+
 ## Mandatory Rules
 
 - Start from domain language, business process, and invariants.
@@ -50,6 +57,10 @@ domain modeling.
 - Escalate software architecture concerns to `software-architecture` when the
   question becomes about deployment, API style, quality attributes, or Clean
   Architecture beyond DDD.
+- Escalate capability, portfolio, roadmap, or operating model questions to
+  `enterprise-architecture`.
+- If domain expert input, invariant, or business outcome is missing, mark the
+  model as a hypothesis and show the question that must be answered.
 
 ## Inputs Expected
 
@@ -99,7 +110,7 @@ Prepare or summarize an event storming model. Read `references/event-storming.md
 ### /ddd review
 
 Review an existing model, service split, or code structure against DDD
-principles.
+principles. Read `references/ddd-review.md`.
 
 ## Evidence Handling
 
