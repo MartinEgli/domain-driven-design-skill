@@ -56,6 +56,8 @@ productive-use governance of AI-generated model claims. Use
 - Do not split services by technical layer when domain boundaries are unclear.
 - Preserve user-provided domain terms exactly unless asking to refine them.
 - Mark assumptions, open questions, and missing domain expert input.
+- Keep domain model elements, diagrams, and recommendations traceable to domain
+  language, supplied artifacts, sources, or clearly marked assumptions.
 - Prefer useful models over perfect models.
 - When creating diagrams, stay within DDD model scope and read
   `references/diagrams.md`.
@@ -125,6 +127,8 @@ flows, or event storming summaries. Read `references/diagrams.md`.
 
 ## Evidence Handling
 
+Use `references/evidence-traceability.md`.
+
 - Evidence: supplied domain language, process, event, rule, code, schema,
   workshop note, or explicit user fact.
 - Inference: proposed model element derived from evidence.
@@ -144,6 +148,7 @@ format.
 - Aggregates protect real invariants.
 - Domain events are business facts, not technical notifications.
 - Open domain questions are visible.
+- Model elements include source trace or are marked as hypotheses.
 - Tactical design does not outrun strategic boundaries.
 - Diagrams use domain language and mark hypotheses when domain expert evidence
   is missing.
