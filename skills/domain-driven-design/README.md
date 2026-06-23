@@ -11,3 +11,10 @@ Use this skill for deep DDD work.
 - `/ddd events`
 - `/ddd event-storm`
 - `/ddd review`
+- `/ddd diagram`
+
+## Diagrams
+
+Use `/ddd diagram` for context maps, subdomain maps, aggregate boundaries,
+domain event flows, event storming summaries, and ubiquitous language maps in
+Mermaid or PlantUML.

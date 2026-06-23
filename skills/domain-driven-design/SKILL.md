@@ -5,7 +5,8 @@ description: >
   context maps, subdomain classification, ubiquitous language, aggregates,
   entities, value objects, domain services, domain events, repositories, event
   storming, model discovery, legacy decomposition, and aligning software design
-  with complex business domains.
+  with complex business domains, including Mermaid, PlantUML, context map,
+  aggregate, domain event, and event storming diagrams.
 ---
 
 # Domain-Driven Design
@@ -31,6 +32,8 @@ Use when the user asks for:
 - legacy system decomposition
 - DDD review of architecture or code
 - domain model refinement
+- DDD diagrams such as context maps, subdomain maps, aggregate boundaries,
+  domain event flows, event storming summaries, or ubiquitous language maps
 
 ## Do Not Use When
 
@@ -54,6 +57,8 @@ productive-use governance of AI-generated model claims. Use
 - Preserve user-provided domain terms exactly unless asking to refine them.
 - Mark assumptions, open questions, and missing domain expert input.
 - Prefer useful models over perfect models.
+- When creating diagrams, stay within DDD model scope and read
+  `references/diagrams.md`.
 - Escalate software architecture concerns to `software-architecture` when the
   question becomes about deployment, API style, quality attributes, or Clean
   Architecture beyond DDD.
@@ -112,6 +117,12 @@ Prepare or summarize an event storming model. Read `references/event-storming.md
 Review an existing model, service split, or code structure against DDD
 principles. Read `references/ddd-review.md`.
 
+### /ddd diagram
+
+Create or review DDD diagrams using Mermaid, PlantUML, or lightweight
+modeling notation: context maps, subdomain maps, aggregate boundaries, event
+flows, or event storming summaries. Read `references/diagrams.md`.
+
 ## Evidence Handling
 
 - Evidence: supplied domain language, process, event, rule, code, schema,
@@ -134,6 +145,8 @@ format.
 - Domain events are business facts, not technical notifications.
 - Open domain questions are visible.
 - Tactical design does not outrun strategic boundaries.
+- Diagrams use domain language and mark hypotheses when domain expert evidence
+  is missing.
 
 ## Boundaries
 
@@ -146,5 +159,7 @@ format.
 
 - Use concrete domain terms.
 - Prefer concise tables and bullet lists.
+- Prefer Mermaid for quick domain modeling diagrams and PlantUML when the user
+  wants persistent model diagrams.
 - Keep model hypotheses visibly marked.
 - End with open questions and next modeling actions.
