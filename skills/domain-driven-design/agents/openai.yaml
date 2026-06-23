@@ -1,0 +1,7 @@
+interface:
+  display_name: "Domain-Driven Design"
+  short_description: "Bounded contexts and domain models"
+  default_prompt: "Use $domain-driven-design to identify bounded contexts, subdomains, aggregates, domain events, context map, and open domain questions."
+
+policy:
+  allow_implicit_invocation: true
