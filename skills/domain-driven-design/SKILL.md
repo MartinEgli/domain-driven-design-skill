@@ -135,6 +135,9 @@ Use `references/evidence-traceability.md`.
 - Assumption: useful but unverified domain hypothesis.
 - Gap: missing domain expert input or business rule.
 
+Include an Evidence Receipt for substantial findings, decisions, diagrams, or
+recommendations.
+
 ## Output Contracts
 
 Use `assets/templates/ddd-output-template.md` unless user asks for another
