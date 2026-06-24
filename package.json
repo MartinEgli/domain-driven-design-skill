@@ -1,6 +1,6 @@
 {
   "name": "domain-driven-design-skill",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "description": "Domain-Driven Design skill for strategic DDD, tactical modeling, bounded contexts, context maps, aggregates, domain events, and event storming.",
   "license": "MIT",
