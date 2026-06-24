@@ -1,6 +1,8 @@
 interface:
   display_name: "Domain-Driven Design"
   short_description: "Bounded contexts and domain models"
+  icon_small: "./assets/domain-driven-design-small.svg"
+  icon_large: "./assets/domain-driven-design.svg"
   default_prompt: "Use $domain-driven-design to identify bounded contexts, subdomains, aggregates, domain events, context map, and open domain questions."
 
 policy:
