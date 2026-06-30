@@ -125,9 +125,22 @@ Create or review DDD diagrams using Mermaid, PlantUML, or lightweight
 modeling notation: context maps, subdomain maps, aggregate boundaries, event
 flows, or event storming summaries. Read `references/diagrams.md`.
 
-## Evidence Handling
 
-Use `references/evidence-traceability.md`.
+### /domain-driven-design feedback
+
+Capture lessons from the current run without changing the skill automatically.
+Use eferences/feedback-route.md to classify user feedback, observed gaps,
+assumptions, candidate improvements, rejected ideas, and routed follow-ups.
+
+### /domain-driven-design improve
+
+Review accumulated feedback and propose concrete skill changes. Use
+ssets/improvement-proposal-template.md. Do not modify behavior until the
+proposal names evidence, affected files, risks, validation commands, versioning
+impact, and rollback considerations.
+## Evidence Handling
+Use `references/evidence-traceability.md`.
+Use eferences/feedback-route.md when capturing or applying lessons from a run.
 
 - Evidence: supplied domain language, process, event, rule, code, schema,
   workshop note, or explicit user fact.
@@ -163,8 +176,15 @@ format.
 - Do not force event sourcing or microservices.
 - Do not treat database tables as the domain model by default.
 
-## Output Style
 
+## Continuous Improvement
+
+This skill is self-improving only through an explicit, auditable feedback loop:
+feedback -> evidence -> improvement proposal -> feature branch -> validation ->
+commit -> push -> version or changelog update when needed. Do not silently alter
+skill behavior based on a single run. Preserve rejected and deferred ideas so
+future maintainers can see why they were not applied.
+## Output Style
 - Use concrete domain terms.
 - Prefer concise tables and bullet lists.
 - Prefer Mermaid for quick domain modeling diagrams and PlantUML when the user
